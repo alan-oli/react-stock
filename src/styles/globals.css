@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+#root {
+    max-width: 100vw;
+    min-height: 100vh;
+    background-color: #282828;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+main {
+    width: 100%;
+    padding: 30px 80px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding: 20px 80px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+header div {
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.link-header {
+    opacity: .7;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+a:visited {
+    color: black;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid white;
+    width: 100%;
+    padding: 20px 80px;
+}
+
+.containerDash {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.containerDash div {
+    padding: 15px;
+    border: 3px solid white;
+    border-radius: 10px;
+    flex-grow: 1;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.containerDash div h1 {
+    align-self: center;
+}
+
+.container-listas {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.recentes-container, .acabando-container, .itens-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lista-titulo, .detalhe2-item h3, input, textarea {
+    background-color: #181818;
+    height: 55px;
+    border-radius: 5px;
+}
+
+.recentes-container div, .acabando-container div, .itens-container div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+.menu-stock {
+    display: flex;
+    gap: 30px;
+}
+
+.menu-stock a {
+    line-height: 80px;
+    color: white;
+    padding: 0 10px;
+}
+
+.selected-menu {
+    border-bottom: 2px solid white;
+}
+
+.hr-stock {
+    opacity: .4;
+    margin-top: -32px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.id {
+    width: 100px;
+}
+
+th, td {
+    text-align: center;
+}
+
+th {
+    font-size: 1.2rem;
+}
+
+td {
+    padding: 15px;
+    font-size: 1.1rem;
+    height: 65px;
+}
+
+.detalhe-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.detalhe1-item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.detalhe1-item div {
+    display: flex;
+    gap: 15px;
+}
+
+.detalhe2-item {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.detalhe2-item h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 22px;
+}
+
+.detalhe3-item {
+    display: flex;
+    gap: 40px;
+}
+
+form {
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inputs-form {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+
+.inputs-form div {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form button {
+    width:fit-content;
+    background-color: #5aa7ff;
+}
+
+input, textarea {
+    color: white;
+    height: auto;
+    padding: 15px 10px;
+    outline: none;
+    border: none;
+}
+
+

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Teclado game Logitech",
+        "price": 150.00,
+        "category": "teclado",
+        "created": "2024-10-25T22:00:15",
+        "description": "Teclado gamer com led RGB, semi-mecânico",
+        "quantity": 8
+    },
+    {
+        "id": 2,
+        "name": "Mouse gamer Logitech",
+        "price": 150.00,
+        "category": "mouse",
+        "created": "2024-10-21T21:10:15",
+        "description": "Mouse gamer 3200 DPI, led RGB",
+        "quantity": 2
+    },
+    {
+        "id": 3,
+        "name": "Monitor Samsung 21' SF350",
+        "price": 800.00,
+        "category": "monitor",
+        "created": "2024-10-30T18:50:15",
+        "description": "Monitor office 60hz, 21 polegadas, tecnologia para melhor visualização em diferentes ângulos",
+        "quantity": 10
+    },
+    {
+        "id": 4,
+        "name": "Monitor Mancer 24' MCR-Z24",
+        "price": 690.00,
+        "category": "monitor",
+        "created": "2024-10-29T19:40:15",
+        "description": "Monitor games 120hz, 24 polegadas, teconolgia inovadora com uma maior fluidez, melhor para seus jogos",
+        "quantity": 12
+    }
+]
